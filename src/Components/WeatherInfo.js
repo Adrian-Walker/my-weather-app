@@ -90,7 +90,7 @@ function weatherInfo({ info, units }) {
               <Text>Temperature Max: {temperture(info.main.temp_max)}</Text>
               <Text>Temperature Min: {temperture(info.main.temp_min)}</Text>
               <Text>Feels Like: {temperture(info.main.feels_like)}</Text>
-              <Text>Pressure: {temperture(info.main.pressure)}</Text>
+              {/* <Text>Pressure: {temperture(info.main.pressure)}</Text> */}
               <Text>Humidity: {temperture(info.main.humidity)}</Text>
             </Card>
           </div>
