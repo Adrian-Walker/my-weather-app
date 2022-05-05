@@ -55,6 +55,7 @@ function weatherInfo({ info, units }) {
 
               <div style={{ display: "flex" }}>
                 <img
+                  alt="weather-image"
                   src={`http://openweathermap.org/img/wn/${info.weather[0].icon}.png`}
                   style={{
                     marginRight: "8px",
